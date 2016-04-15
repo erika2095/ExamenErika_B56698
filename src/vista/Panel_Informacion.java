@@ -37,9 +37,9 @@ public class Panel_Informacion extends javax.swing.JPanel {
         return this.jt_NumPrestamo.getText();
     }
     
-    public void establecerNumeroPrestamo()
+    public void establecerNumeroPrestamo(String numero)
     {
-        String numeroPrestamo = "";
+        this.jt_NumPrestamo.setText(numero);
     }
     public void mostrarInformacion(String arreglo[])
     {
